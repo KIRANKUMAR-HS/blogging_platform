@@ -1,0 +1,15 @@
+LOGGER:
+  LEVEL: debug #debug info , warn,error ,fatal, panic 
+  #leave file empty to log exmpl: /var/log/blogging.log
+
+DATABASE:
+  PSQL:
+    HOST: localhost
+    PORT: 5432
+    USER:  kiran #mtuser
+    PASSWORD: Pass@1234 #mtpassword
+    DBNAME: blogging
+
+API_SERVER:
+  PORT: 8080
+  URL_ADRESS: ":8080"
